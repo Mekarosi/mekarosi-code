@@ -14,6 +14,8 @@
  
  //custom bootstrap variable must be set or imported *before* bootstrap.
  @import "bootstrap";
+ @import "font-awesome-sprockets";
+ @import "font-awesome";
   
  //Typography style
  h1,h2,h3 
@@ -39,11 +41,11 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
 .home-callout
 {
  color: white;
- margin-top: -20px;
  padding-top: 50px;
  padding-bottom: 100px;
 }
 
+//Nav style
 .navbar-brand,
 .navbar-nav li a
 {
