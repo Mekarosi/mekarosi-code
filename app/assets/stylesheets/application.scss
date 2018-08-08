@@ -52,6 +52,11 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
  padding-bottom: 100px;
 }
 
+.alert-notice
+{
+ display: none
+}
+
 //Nav style
 .navbar-brand,
 .navbar-nav li a
