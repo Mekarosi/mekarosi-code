@@ -62,6 +62,9 @@ end
   # Use Devise for user authentication
   gem 'devise'  
   
+  # Use Stripe for payment processing
+  gem 'stripe', '1.48.0' 
+  
   # Use figaro for ENV variables
   gem 'figaro'
 
