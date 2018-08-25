@@ -62,6 +62,9 @@ end
   # Use Devise for user authentication
   gem 'devise'  
   
+  # Use figaro for ENV variables
+  gem 'figaro'
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
  [:mingw, :mswin, :x64_mingw, :jruby]
 
