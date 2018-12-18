@@ -67,7 +67,10 @@ end
   gem 'stripe', '1.48.0' 
   
   # Use figaro for ENV variables
-  gem 'figaro'
+  gem 'figaro', '1.1.1'
+  
+  # Use Paperclip for image upload
+  gem 'paperclip', '4.3.6'
 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
