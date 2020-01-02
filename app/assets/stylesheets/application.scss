@@ -52,6 +52,21 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
  padding-bottom: 100px;
 }
 
+.flash-container
+{
+ position: absolute;
+ width: 100%
+}
+
+
+.alert-notice, .alert-alert
+{
+ text-align: center;
+ background: rgba( 255,255,255,0.3);
+ border:  rgba( 255,255,255,0.3);
+ margin-top: -14p
+}
+
 //Nav style
 .navbar-brand,
 .navbar-nav li a
@@ -64,4 +79,9 @@ h3.text-center
 {
 background-colur: white;
 width: 4000px;   
+}
+
+.home-signup-links
+{
+ margin-top: 30px;
 }
