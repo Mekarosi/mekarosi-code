@@ -70,7 +70,7 @@ end
   gem 'figaro', '1.1.1'
   
   # Use Paperclip for image upload
-  gem 'paperclip', '4.3.6'
+  gem 'paperclip', '5.2.0'
 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
